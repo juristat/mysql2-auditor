@@ -1,0 +1,29 @@
+{
+  "name": "mysql2-auditor",
+  "version": "1.0.0",
+  "description": "Logs and audits mysql2 queries for various problems. Mocha friendly.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juristat-oss/mysql2-auditor.git"
+  },
+  "keywords": [
+    "mysql2",
+    "explain",
+    "mysql",
+    "performance",
+    "auditor",
+    "query",
+    "analysis",
+    "filesort"
+  ],
+  "author": "Ben Chociej <ben.chociej@juristat.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/juristat-oss/mysql2-auditor/issues"
+  },
+  "homepage": "https://github.com/juristat-oss/mysql2-auditor#readme"
+}
