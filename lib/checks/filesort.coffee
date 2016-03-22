@@ -5,7 +5,7 @@ module.exports = (entry, result) ->
 		fs = findFilesort entry.explanation
 
 		if fs.length > 0
-			result.warn "Query uses #{fs.length} filesort(s)"
+			result.warning "Query uses #{fs.length} filesort(s)"
 
 findFilesort = (thing) ->
 	filesorts = []

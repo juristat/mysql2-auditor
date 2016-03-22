@@ -1,6 +1,6 @@
 {
   "name": "mysql2-auditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Logs and audits mysql2 queries for various problems. Mocha friendly.",
   "main": "lib/main.coffee",
   "scripts": {
