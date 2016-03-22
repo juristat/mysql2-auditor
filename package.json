@@ -2,7 +2,7 @@
   "name": "mysql2-auditor",
   "version": "1.0.0",
   "description": "Logs and audits mysql2 queries for various problems. Mocha friendly.",
-  "main": "index.coffee",
+  "main": "lib/main.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/juristat-oss/mysql2-auditor/issues"
   },
-  "homepage": "https://github.com/juristat-oss/mysql2-auditor#readme"
+  "homepage": "https://github.com/juristat-oss/mysql2-auditor#readme",
+  "dependencies": {
+    "lodash": "^3.9.3"
+  },
+  "peerDependencies": {
+    "coffee-script": "^1.9.2",
+    "mysql2": "^0.15.8"
+  }
 }
