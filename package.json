@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/juristat-oss/mysql2-auditor#readme",
   "dependencies": {
-    "lodash": "^3.9.3"
+    "lodash": "^4.17.11"
   },
   "peerDependencies": {
-    "coffee-script": "^1.9.2",
+    "coffeescript": "^1.9.2",
     "mysql2": "^0.15.8"
   }
 }
